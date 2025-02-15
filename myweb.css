@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0
+}
+
+.layout{
+background-color:#d5e3e3;
+height: vh100;;
+}
+
+div{
+    height: 150px;
+    width:50px;
+    background-color:#22c1c3 ;
+}
+
+
+h1{
+    height: 50px;
+    width:100px ;
+    color:#22c1c3 ;
+    padding-left:100px;
+}
+
+.my-team{
+    display:flex;
+}
+
+h2{
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gold;
+}
+
+
+#p-d{
+    width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    color:black;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.flex{
+    display:flex;
+}
+
+.image{
+    border:none;
+    border-radius: 3px;
+}
+
+@media(max-width:425){
+    img{
+        width: 500px;
+        height: 500px;
+    }
+    .layout{
+        background-color: gold;
+    }
+}

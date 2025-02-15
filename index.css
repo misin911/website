@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    display:flex;
+}
+
+
+.main{
+padding-left:50px;
+    background-color:black;
+    height: 100vh;
+    width: 100vw;
+display:flex;
+}
+span{
+    color:white;
+}
+
+h1{
+   color: gold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: larger;
+}
+
+h3{
+    color:white
+}
+
+div{
+    height: 2px;
+    width:100px;
+    background-color:#1cc982
+}
+
+.graph{
+    width:500px;
+    height: 440px;
+}
+
+p{
+    color:white;
+letter-spacing:1px;
+}
+
+.my-div{
+    background-color: #1cc982;
+    height: 2px;
+    width:500px;
+
+}
+
+a{
+    color:white;
+    padding-right: 10px;
+}
+
+@media(min-width:500px) and (max-width:1440){
+.main{
+background-color:gold;
+}
+}
+
+img{
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    box-sizing:content-box ;
+}
+
+.my-image{
+    margin-left: 450px;
+    border-radius: 2px;
+
+
+}
+

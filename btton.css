@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    text-align: center;
+    padding-top: 250px;
+    display: flex;
+    justify-content:space-around;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    background-color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+
+   
+}
+
+
+@keyframes mybutton{
+    from{
+        height: 200px;
+    }
+
+    to{
+        height: 500px;
+        background-color: blue;
+    }
+}
+
+button:hover{
+    animation-name: mybutton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+  animation-play-state: running;
+    animation-direction: forwards;
+
+}

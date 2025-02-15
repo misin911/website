@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding: 0;
+
+}
+
+.main{
+    height: 100vh;
+    background-color: white;
+    display:flex;
+
+}
+
+.right{
+    background-color:#327055;
+    border:1px solid black;
+    height: 100vh;
+    border-radius: 5px;
+    width:100%;
+    margin-left: 2px;
+}
+
+.left{
+    background-color:#d5e3e3;
+    border: 1px solid black;
+    height: 100vh;
+  width: 30%;
+    border-radius: 5px;
+
+}
+
+.fa-bars{
+    float: right;
+    margin-right: 10px;
+    font-size: 50px;
+    color:gold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.fa-xmark{
+    margin-left: 10px;
+    font-size: 50px;
+    color:gold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+ .my-side{ 
+ display:none;
+ } 
