@@ -40,3 +40,10 @@ button:hover{
     animation-direction: forwards;
 
 }
+
+
+@media(max-width:198px){
+    body{
+        display: block;
+    }
+}
